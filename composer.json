@@ -1,0 +1,19 @@
+{
+    "name": "technicalheist/simple-mailer",
+    "description": "Simple mailer uses phpmailer to send mail using the smtp details",
+    "type": "library",
+    "require": {
+        "phpmailer/phpmailer": "^6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Technical Heist",
+            "email": "contact@technicalheist.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "TechnicalHeist\\SimpleMailer\\": "src" }
+    },
+    "minimum-stability": "dev"
+}
